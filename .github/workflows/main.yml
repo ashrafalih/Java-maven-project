@@ -1,0 +1,12 @@
+name: shell commands # this is the name tag
+on: [push]
+jobs:
+  run-shellcommands:
+    runs-on: ubuntu-latest
+    steps:
+     - name: string
+       run: echo "well come to the world"
+     - name: multiline script
+       run: |
+        ls
+        pwd
