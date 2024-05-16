@@ -8,5 +8,5 @@ jobs:
        run: echo "well come to the world"
      - name: multiline script
        run: |
-        ls
-        pwd
+        echo ls
+        echo pwd
